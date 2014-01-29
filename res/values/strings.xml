@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CurrencyConverter</string>
+    <string name="action_settings">Settings</string>
+    <string name="value_to_convert">Amount to Convert</string>
+    <string name="convert_from">Convert From</string>
+    <string name="convert_to">Convert To</string>
+    <string name="amount">Amount</string>
+	<string-array name="currency_names">
+	    <item>Doge Coin</item>
+	    <item>Bitcoin</item>
+	    <item>USD</item>
+	</string-array>
+</resources>
