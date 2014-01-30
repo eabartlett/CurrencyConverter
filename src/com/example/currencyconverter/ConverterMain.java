@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class ConverterMain extends Activity {
 	
@@ -41,6 +42,7 @@ public class ConverterMain extends Activity {
 	}
 	
 	public void onItemSelected(AdapterView<?> parent, View view, int pos, long id){
+		System.out.println("Erik");
 		if (parent.equals(R.id.convert_from)){
 			switch (pos) {
 			case 0:
@@ -59,7 +61,8 @@ public class ConverterMain extends Activity {
 			case 2:
 				convertTo = DC;
 			}
-			
 		}
+		TextView t = (TextView) findViewById(R.id.convert_from);
+		t.setText((int) convertFrom);
 	}
 }
