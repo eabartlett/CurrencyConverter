@@ -45,8 +45,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_alignParentRight="true"
 	        android:hint="@string/value_to_convert"
-	        android:layout_marginTop="100dp"
-	        android:ems="17" />
+	        android:layout_marginTop="100dp"/>
 	    <TextView
 	        android:id="@+id/converted_value"
 	        android:layout_width="wrap_content"
