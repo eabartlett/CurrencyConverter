@@ -6,7 +6,8 @@
     <string name="value_to_convert">Amount to Convert</string>
     <string name="convert_from">Convert From</string>
     <string name="convert_to">Convert To</string>
-    <string name="amount">Amount</string>
+    <string name="amount">Amount to Convert</string>
+    <string name="label_converted_amount">Amount Converted</string>
 	<string-array name="currency_names">
 	    <item>Doge Coin</item>
 	    <item>Bitcoin</item>

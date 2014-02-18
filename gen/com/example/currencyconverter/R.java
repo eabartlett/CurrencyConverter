@@ -45,6 +45,7 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int convert_from=0x7f050003;
         public static final int convert_to=0x7f050004;
+        public static final int label_converted_amount=0x7f050006;
         public static final int value_to_convert=0x7f050002;
     }
     public static final class style {
